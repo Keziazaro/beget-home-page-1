@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.center{
+    background:black;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.center a{
+    text-decoration:none;
+    margin-top:50px;
+    color:white;
+    border:1px solid white;
+    padding:5px;
+    border-radius:25px;
+
+}
+
+#sites{
+    background:black;
+    width:850px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#sites a{
+    padding-top:45px;
+    padding-bottom:45px;
+}
